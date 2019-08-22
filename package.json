@@ -1,0 +1,27 @@
+{
+  "name": "electron-myrobotnews",
+  "version": "1.0.0",
+  "description": "App of Myrobotnews for desktop",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmocana2/electron-myrobotnews.git"
+  },
+  "keywords": [
+    "electron",
+    "myrobotnews"
+  ],
+  "author": "jmocana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmocana2/electron-myrobotnews/issues"
+  },
+  "homepage": "https://github.com/jmocana2/electron-myrobotnews#readme",
+  "dependencies": {
+    "electron": "^6.0.3"
+  }
+}
