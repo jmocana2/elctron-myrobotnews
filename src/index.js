@@ -11,10 +11,6 @@ if(process.env.NODE_ENV !== 'production'){
 let mainWindow;
 
 app.on('ready', () => {
-  mainWindow = new BrowserWindow({})
-  mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'views/index.html'),
-    protocol: 'file',
-    slashes: true
-  }))
+  mainWindow = new BrowserWindow({width: 500, height: 900, x:0, y:0})
+  mainWindow.loadURL('http://localhost:3000/')
 })
